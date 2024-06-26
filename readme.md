@@ -1,5 +1,5 @@
 # Yatzy Game
-
+https://github.com/RudraPatel973/yatzy
 ## Description
 
 This is a single-player Yatzy game implemented using HTML, CSS, and JavaScript. The game follows the standard rules of Yatzy, where a player rolls five dice, chooses which to keep, and can reroll up to two times per turn. The player must place a score into an available score box, and the game ends when all score boxes are filled.
