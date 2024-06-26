@@ -14,12 +14,6 @@ This is a single-player Yatzy game implemented using HTML, CSS, and JavaScript. 
 6. Repeat until all score categories are filled.
 7. Your final score will be displayed when the game ends.
 
-## Screenshots
-
-![Initial State](images/initial_state.png)
-![After Roll](images/after_roll.png)
-![Game Over](images/game_over.png)
-
 ## Project Structure
 
 - `index.html`: The main HTML file for the game.
