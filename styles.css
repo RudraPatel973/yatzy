@@ -11,9 +11,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     height: 100vh;
     margin: 0;
+    overflow-y: auto;
 }
 
 /* Header Styling */
@@ -38,6 +39,7 @@ main {
     width: 100%;
     max-width: 800px;
     padding: 2rem;
+    overflow-y: auto;
 }
 
 /* Scoreboard Styling */
@@ -73,6 +75,7 @@ main {
     padding: 1rem;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
 }
 
 #dice-container {
@@ -117,6 +120,21 @@ button:disabled {
     cursor: not-allowed;
 }
 
+/* Leaderboard Styling */
+#leaderboard {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.leaderboard-entry {
+    padding: 0.5rem;
+    border-bottom: 1px solid #dddddd;
+}
+
 /* Footer Styling */
 footer {
     background-color: #4CAF50;
@@ -124,6 +142,4 @@ footer {
     width: 100%;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
 }
